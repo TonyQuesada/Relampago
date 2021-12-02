@@ -11,7 +11,6 @@ $db_connection = mysqli_connect(
 if (!$db_connection) {
     die("Connection failed: " . mysqli_connect_error());
 }else{
-    echo "holi";
 }
 
 ?>

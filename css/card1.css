@@ -13,6 +13,7 @@ body {
   /* background-image: url("https://images7.alphacoders.com/413/thumb-1920-413747.jpg");   */
   background-image: url("https://images4.alphacoders.com/592/thumb-1920-592367.jpg");  
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card-container {

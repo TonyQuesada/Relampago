@@ -1,0 +1,155 @@
+.btn-xl, .btn-m, .btn-s, .btn-xs {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  line-height: normal;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.25s;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  touch-action: manipulation;
+  outline: none;
+  user-select: none;
+  width: 120px; }
+  .btn-xl:disabled, .btn-m:disabled, .btn-s:disabled, .btn-xs:disabled {
+    cursor: not-allowed; }
+
+.btn-xl {
+  padding: 0 5px;
+  height: 56px;
+  font-size: 32px; }
+
+.btn-m {
+  padding: 0 10px;
+  height: 44px;
+  font-size: 16px; }
+
+.btn-s {
+  padding: 0 8px;
+  height: 36px;
+  font-size: 14px; }
+
+.btn-xs {
+  padding: 0 3px;
+  height: 24px;
+  font-size: 12px; }
+
+.is-not-mobile .btn-line-sky:hover {
+  background-color: #b4ceff;
+  border-color: #b4ceff;
+  color: #fff; }
+
+.btn-sky {
+  background-color: transparent;
+  border: 1px solid #acc8ff;
+  color: #acc8ff; }
+  .btn-sky.is-active {
+    background-color: #9bb4e6;
+    border-color: #9bb4e6;
+    color: #fff; }
+  .btn-sky:disabled {
+    background-color: transparent;
+    border: 1px solid #acc8ff;
+    color: #acc8ff;
+    opacity: 0.33; }
+  .btn-sky:hover {
+    background-color: #b4ceff;
+    border-color: #b4ceff;
+    color: #fff; }
+
+.is-not-mobile .btn-line-blues:hover {
+  background-color: #3c749b;
+  border-color: #3c749b;
+  color: #fff; }
+
+.btn-blues {
+  background-color: transparent;
+  border: 1px solid #266590;
+  color: #266590; }
+  .btn-blues.is-active {
+    background-color: #225b82;
+    border-color: #225b82;
+    color: #fff; }
+  .btn-blues:disabled {
+    background-color: transparent;
+    border: 1px solid #266590;
+    color: #266590;
+    opacity: 0.33; }
+  .btn-blues:hover {
+    background-color: #3c749b;
+    border-color: #3c749b;
+    color: #fff; }
+
+.is-not-mobile .btn-line-grays:hover {
+  background-color: #babcbf;
+  border-color: #babcbf;
+  color: #fff; }
+
+.btn-grays {
+  background-color: transparent;
+  border: 1px solid #b2b5b8;
+  color: #b2b5b8; }
+  .btn-grays.is-active {
+    background-color: #a0a3a6;
+    border-color: #a0a3a6;
+    color: #fff; }
+  .btn-grays:disabled {
+    background-color: transparent;
+    border: 1px solid #b2b5b8;
+    color: #b2b5b8;
+    opacity: 0.33; }
+  .btn-grays:hover {
+    background-color: #babcbf;
+    border-color: #babcbf;
+    color: #fff; }
+
+.is-not-mobile .btn-line-reds:hover {
+  background-color: #e72f38;
+  border-color: #e72f38;
+  color: #fff; }
+
+.btn-reds {
+  background-color: transparent;
+  border: 1px solid #e41822;
+  color: #e41822; }
+  .btn-reds.is-active {
+    background-color: #cd161f;
+    border-color: #cd161f;
+    color: #fff; }
+  .btn-reds:disabled {
+    background-color: transparent;
+    border: 1px solid #e41822;
+    color: #e41822;
+    opacity: 0.33; }
+  .btn-reds:hover {
+    background-color: #e72f38;
+    border-color: #e72f38;
+    color: #fff; }
+
+.is-not-mobile .btn-line-greens:hover {
+  background-color: #54bf8f;
+  border-color: #54bf8f;
+  color: #fff; }
+
+.btn-greens {
+  background-color: transparent;
+  border: 1px solid #41b883;
+  color: #41b883; }
+  .btn-greens.is-active {
+    background-color: #3ba676;
+    border-color: #3ba676;
+    color: #fff; }
+  .btn-greens:disabled {
+    background-color: transparent;
+    border: 1px solid #41b883;
+    color: #41b883;
+    opacity: 0.33; }
+  .btn-greens:hover {
+    background-color: #54bf8f;
+    border-color: #54bf8f;
+    color: #fff; }
+
+/*# sourceMappingURL=btn.css.map */

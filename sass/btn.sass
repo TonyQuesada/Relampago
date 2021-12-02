@@ -1,0 +1,76 @@
+%btn-common
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  border-radius: 3px
+  line-height: normal
+  font-weight: 400
+  font-style: normal
+  transition: all 0.25s
+  text-align: center
+  white-space: nowrap
+  cursor: pointer
+  touch-action: manipulation
+  outline: none
+  user-select: none
+  width: 120px
+  &:disabled
+    cursor: not-allowed
+@mixin get_size($height, $font)
+  $padding: floor(($height - ($font * 1.4)) / 2)
+  padding: 0 $padding
+  height: $height
+  font-size: $font
+@mixin btn_xl
+  @include get_size(56px, 32px)
+@mixin btn_m
+  @include get_size(44px, 16px)
+@mixin btn_s
+  @include get_size(36px, 14px)
+@mixin btn_xs
+  @include get_size(24px, 12px)
+.btn-xl
+  @extend %btn-common
+  @include btn_xl
+.btn-m
+  @extend %btn-common
+  @include btn_m
+.btn-s
+  @extend %btn-common
+  @include btn_s
+.btn-xs
+  @extend %btn-common
+  @include btn_xs
+$btn_color: (sky: #acc8ff, blues: #266590, grays: #b2b5b8, reds: #e41822, greens: #41b883)
+@mixin btn_classic($name, $color)
+  .is-not-mobile
+    .btn-line-#{$name}
+      &:hover
+        background-color: tint($color, 10%)
+        border-color: tint($color, 10%)
+        color: #fff
+
+  .btn-#{$name}
+    background-color: transparent
+    border: 1px solid $color
+    color: $color
+    &.is-active
+        background-color: shade($color, 10%)
+        border-color: shade($color, 10%)
+        color: #fff
+    &:disabled
+      background-color: transparent
+      border: 1px solid $color
+      color: $color
+      opacity: 0.33
+    &:hover
+        background-color: tint($color, 10%)
+        border-color: tint($color, 10%)
+        color: #fff
+@function tint($color, $percentage)
+  @return mix(white, $color, $percentage)
+
+@function shade($color, $percentage)
+  @return mix(black, $color, $percentage)
+@each $name, $color in $btn_color
+  @include btn_classic($name, map-get($btn_color, $name))

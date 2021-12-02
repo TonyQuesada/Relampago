@@ -1,0 +1,55 @@
+
+
+
+.table-latitude {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-latitude caption {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #4c94e4;
+  text-align: center;
+}
+
+.table-latitude thead {
+  border-top: 2px solid #4c94e4;
+  border-bottom: 2px solid #4c94e4;
+}
+
+.table-latitude thead th {
+  text-align: center;
+  padding: 10px;
+  color: #006ac6;
+  border: 1px solid #F1F1F1;
+}
+
+.table-latitude tbody tr {
+  border-bottom: 1px solid #F1F1F1;
+  color: #006ac6;
+}
+
+.table-latitude tbody tr td {
+  padding: 10px;
+  border: 1px solid #F1F1F1;
+}
+
+.table-latitude tbody tr th {
+  padding-left: 10px;
+  border: 1px solid #F1F1F1;
+}
+
+.table-latitude tfoot {
+  color: #4c94e4;
+  font-style: italic;
+  border-bottom: 2px solid #4c94e4;
+}
+
+.table-latitude tfoot tr td {
+  padding: 10px;
+  border: 1px solid #F1F1F1;
+}
+/*# sourceMappingURL=tablas1.css.map */

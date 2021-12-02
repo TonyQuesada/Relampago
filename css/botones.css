@@ -1,0 +1,43 @@
+.button {
+  display: inline-block;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  background-color: #4c94e4;;
+  padding: 15px 45px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  border-radius: 2px;
+  text-align: center;
+  position: relative;
+  outline: none;
+  transition: background-color 0.1s ease;
+  cursor: pointer;
+margin-top: 5%; }
+  .button::after {
+    transition: background-color 0.2s ease;
+    position: absolute;
+    content: "";
+    height: 4px;
+    bottom: 0;
+    width: 100%;
+    background-color: #112849;
+    opacity: 0.18;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    left: 0; }
+  .button:focus, .button:hover {
+    text-decoration: none;
+    color: #fff; }
+  .button:hover {
+    background-color: #8eb2e5; }
+    .button:hover::after {
+      opacity: 0.22; }
+  .button:active {
+    background-color: #6496db; }
+    .button:active::after {
+      opacity: 0.32; }
+
+/*# sourceMappingURL=botones.css.map */

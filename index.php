@@ -52,7 +52,7 @@ require('db.php');
 
 	</div>
 
-	<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+	<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" style="margin-left: 8%;">
 		<select name="departamento" id="departamento">
 
 			<?php
@@ -66,6 +66,7 @@ require('db.php');
 			?>
 		</select>
 		<button class="button">Mostrar</button>
+		<a href="https://drive.google.com/u/0/uc?export=download&confirm=j_I1&id=1WuZL2sCEmG1nS1nNMMLT-vvOxfmjFCO-" class="button">Bajar APP</a>
 	</form>
 
 
